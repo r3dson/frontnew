@@ -6,14 +6,5 @@ jobs:
   eslint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - name: setup node
-        uses: actions/setup-node@v1
-        with:
-          node-version: '10.x'
-      
-      - name: install
-        run: yarn add eslint
-        
-      - name: execute lint
-        run: yarn eslint --ignore-path .gitignore .
+      - uses: actions/checkout@v1
+      - uses: stefanoeb/eslint-action@1.0.2
