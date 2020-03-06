@@ -17,3 +17,5 @@ jobs:
         
       - name: execute lint
         run: yarn eslint --ignore-path .gitignore .
+        env:
+          CI: true
