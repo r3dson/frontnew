@@ -1,9 +1,18 @@
-name: Lint
+name: LintE
 
 on: [pull_request]
 jobs:
   eslint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: "hallee/eslint-action@master"
+      - uses: actions/checkout@master
+      - name: setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '10.x'
+
+      - name: install
+        run: yarn add eslint
+
+      - name: execute lint
+        run: yarn eslint --ext .js,.vue src
