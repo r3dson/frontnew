@@ -24,6 +24,26 @@ Front-end for Quotas System at [https://github.com/paulojribp/sistemadecotas](ht
 ## Pré-requisitos
 - To be defined
 
+## Workspace (IMPORTANTE)
+Para garantir que o ambiente de desenvolvimento seja coeso entre todos os contribuidores utilize nosso workspace conforme as instruções abaixo.
+
+1. `git clone https://github.com/r3dson/frontnew.git`
+2. Abra o projeto no VSCode.
+3. Espere aparecer a mensagem, na parte inferior direita, e selecione `Open Workspace` 
+![open workspace image](readme-assets/open-workspace.png)
+
+
+4. Confirme que o `Workspace` foi carregado, deve aparecer no explorer conforme a imagem. 
+![workspace loaded image](readme-assets/workspace-loaded.png)
+
+
+5. Vá para a aba de extensões do VSCode.
+6. Na barra de pesquisa digite `@recommended`.
+7. Selecione `Workspace recommendations`, conforme a imagem
+![workspace recommendations image](readme-assets/workspace-recomendations.png)
+
+
+8. Caso não tenha alguma das extensões ou ela apareçaapagada clique com o botão direito e selecione `instalar` ou `Enable(Workspace)`
 
 ## Contribua com este projeto
 <!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
