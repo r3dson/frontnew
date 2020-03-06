@@ -52,4 +52,4 @@ Sinta-se a vontade para entrar em contato <javadevzn@gmail.com>.
 ## License
 <!--- If you're not sure which open license to use see https://choosealicense.com/--->
 
-This project uses the following license: [<license_name>](<link>).
+This project uses the following license: [<license_name>](<link>)..
