@@ -18,6 +18,7 @@
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
+    <div v-for="todo in 5"/>
 
     <router-view />
   </div>
